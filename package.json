@@ -27,14 +27,14 @@
     "auto-launch": "^5.0.1",
     "electron-context-menu": "^0.9.1",
     "electron-debug": "^1.4.0",
-    "electron-dl": "^1.10.0",
-    "electron-settings": "^3.1.4"
+    "electron-dl": "^1.14.0",
+    "electron-settings": "^3.2.0"
   },
   "devDependencies": {
-    "electron": "4.2.2",
-    "electron-builder": "20.40.2",
-    "stylelint": "^9.9.0",
-    "xo": "*"
+    "electron": "^7.1.1",
+    "electron-builder": "^20.40.2",
+    "stylelint": "^9.10.1",
+    "xo": "^0.25.3"
   },
   "xo": {
     "envs": [
@@ -86,26 +86,6 @@
           "target": "deb",
           "arch": [
             "ia32",
-            "x64"
-          ]
-        },
-        {
-          "target": "pacman",
-          "arch": [
-            "ia32",
-            "x64"
-          ]
-        },
-        {
-          "target": "rpm",
-          "arch": [
-            "ia32",
-            "x64"
-          ]
-        },
-        {
-          "target": "snap",
-          "arch": [
             "x64"
           ]
         }
